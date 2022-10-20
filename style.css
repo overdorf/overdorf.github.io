@@ -1,0 +1,105 @@
+
+/* navigation bar */
+.nav-cont {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: lightgray;
+
+}
+.nav-item {
+  padding: 1em;
+
+}
+
+/*header*/
+.header {
+  padding: 5px;
+  text-align: center;
+  background: white;
+  color: black;
+}
+
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Main column */
+.main {
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  color: black;
+  padding-left: 250px;
+  padding-right: 250px;
+}
+
+/* Responsive layout */
+     @media screen and (max-width: 700px) {
+         .main {
+           -ms-flex: 70%; /* IE10 */
+           flex: 70%;
+           background-color: white;
+           color: black;
+           padding-left: 10px;
+           padding-right: 10px;
+         }
+     }
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: lightgray;
+}
+
+
+/*#hp  {
+float: right;
+ margin: 0 0 0 15px;
+}*/
+
+.img-with-text {
+    text-align: center;
+    width: 200;
+    float: right;
+     margin: 0 0 0 15px;
+    
+}
+
+.img-with-text img {
+    display: block;
+    margin: 0 auto;
+
+}
+
+/* color of links */
+
+a:link {
+  color: darkgray;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: darkgray;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: darkgray;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: gray;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
