@@ -83,17 +83,17 @@ float: right;
 /* color of links */
 
 a:link {
-  color: darkgray;
+  color: gray;
   background-color: transparent;
   text-decoration: none;
 }
 a:visited {
-  color: darkgray;
+  color: gray;
   background-color: transparent;
   text-decoration: none;
 }
 a:hover {
-  color: darkgray;
+  color: gray;
   background-color: transparent;
   text-decoration: underline;
 }
