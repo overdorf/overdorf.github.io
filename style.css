@@ -145,3 +145,16 @@ a:active {
     .pubs .pub-item{ grid-template-columns:1fr; }
     .pubs .pub-year{ text-align:left; margin-bottom:.15rem; }
   }
+
+.pub-award {
+  display: inline-block;
+  margin-left: 0.4em;
+  padding: 0.08em 0.5em;
+  border-radius: 4px;
+  font-size: 0.78em;
+  font-weight: 600;
+  vertical-align: middle;
+  background: #fbe8a6;
+  color: #7a5c00;
+  border: 1px solid #e6c65c;
+}
